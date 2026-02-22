@@ -11,6 +11,7 @@ class BlackScreenApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
+      title: 'Black Screen',
       home: Scaffold(
         backgroundColor: Colors.black,
       ),
