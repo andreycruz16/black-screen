@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:wakelock_plus/wakelock_plus.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await WakelockPlus.enable();
   runApp(const BlackScreenApp());
 }
 
