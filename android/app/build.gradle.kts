@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.black_screen"
+    namespace = "com.ikitaiapps.blackscreen"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -21,7 +21,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.black_screen"
+        applicationId = "com.ikitaiapps.blackscreen"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

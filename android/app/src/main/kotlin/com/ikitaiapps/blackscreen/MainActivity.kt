@@ -1,4 +1,4 @@
-package com.example.black_screen
+package com.ikitaiapps.blackscreen
 
 import io.flutter.embedding.android.FlutterActivity
 
